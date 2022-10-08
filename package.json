@@ -1,5 +1,5 @@
 {
-  "homepage": "http://QuanHoang1971.github.io/reactjs-pokemon",
+  "homepage": "http://QuanHoang1971.github.io/Pokemon",
   "name": "pokemon",
   "version": "0.1.0",
   "private": true,
@@ -21,9 +21,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
